@@ -19,7 +19,7 @@ void AttemptToOpenFile() {
 void CreateNewFile() {
     FILE* fp = fopen("TaskRecords.txt", "w");
     printf("File Created\n");
-    fscanf(fp, "Hello", stdin);
+    fprintf(fp, "Hello");
     fclose(fp);
 }
 
@@ -33,5 +33,6 @@ void display_menu() {
     printf("7. Search Task\n");
     printf("8. Save Data\n");
     printf("9. Load Data\n");
+    printf("10. Displays task based on priority");
     printf("0. Exit\n");
 }
