@@ -5,7 +5,7 @@
 
 
 void AttemptToOpenFile() {
-    FILE* fp = fopen("TaskRecords.txt", "r");
+    FILE* fp = fopen(FILEPATH, "r");
 
     if (fp == NULL) {
         CreateNewFile();
@@ -18,7 +18,7 @@ void AttemptToOpenFile() {
 }
 
 void CreateNewFile() {
-    FILE* fp = fopen("TaskRecords.txt", "w");
+    FILE* fp = fopen(FILEPATH, "w");
     printf("File Created\n");
     fclose(fp);
 }

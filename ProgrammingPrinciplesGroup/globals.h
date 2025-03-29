@@ -1,5 +1,9 @@
 #pragma once
 
+#define FILEPATH "../ProgrammingPrinciplesGroup/TaskRecords.txt"
+#define TEMPFILEPATH "../ProgrammingPrinciplesGroup/TaskRecords.txt"
+
+
 typedef struct Task {
     int id;
     char name[100];
