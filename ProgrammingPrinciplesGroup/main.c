@@ -5,6 +5,7 @@
 #include<stdio.h>
 #include "globals.h"
 #include "functions.h"
+#include "tasks.h"
 
 
 int main() {

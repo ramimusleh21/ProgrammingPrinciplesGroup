@@ -1,14 +1,17 @@
 #pragma once
 
-struct Task {
+typedef struct Task {
     int id;
     char name[100];
-    char description[255];
-    char due_date[12]; 
-    int status; 
-};
+   //char description[255];
+    int due_year; 
+    int due_month; 
+    int due_day; 
 
-struct TaskList {
+    int status; 
+}TASK;
+
+typedef struct TaskList {
     struct Task tasks[100];  
     int count;  
-};
+}TASKLIST;
