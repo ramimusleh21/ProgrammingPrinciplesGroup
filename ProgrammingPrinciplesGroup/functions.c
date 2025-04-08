@@ -2,7 +2,10 @@
 #include <stdio.h>
 #include "functions.h"
 #include "globals.h"
-
+#include "Task_main.h"
+#include "Task_Type.h"
+#include "List.h"
+#include "item.h"
 
 void AttemptToOpenFile() {
     FILE* fp = fopen(FILEPATH, "r");
@@ -35,3 +38,7 @@ void display_menu() {
     printf("9. Load Data\n");
     printf("0. Exit\n");
 }
+
+
+
+

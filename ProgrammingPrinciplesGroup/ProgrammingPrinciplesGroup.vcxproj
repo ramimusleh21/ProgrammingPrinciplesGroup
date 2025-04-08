@@ -128,11 +128,25 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="functions.c" />
+    <ClCompile Include="HighPriorityTask.c" />
+    <ClCompile Include="item.c" />
+    <ClCompile Include="List.c" />
+    <ClCompile Include="LowPriorityTasks.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="MediumPriorityTasks.c" />
+    <ClCompile Include="Task_main.c" />
+    <ClCompile Include="Task_Type.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions.h" />
     <ClInclude Include="globals.h" />
+    <ClInclude Include="HighPriorityTask.h" />
+    <ClInclude Include="item.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="LowPriorityTasks.h" />
+    <ClInclude Include="MediumPriorityTasks.h" />
+    <ClInclude Include="Task_main.h" />
+    <ClInclude Include="Task_Type.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

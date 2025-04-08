@@ -1,35 +1,39 @@
 // prog71990w25 - Rami m. - Group Assignment
 
 #define _CRT_SECURE_NO_WARNINGS
-
-#include<stdio.h>
-#include "globals.h"
+#include <stdio.h>
 #include "functions.h"
-#include "tasks.h"
+#include "globals.h"
+#include "Task_main.h"
+#include "Task_Type.h"
+#include "HighPriorityTask.h"
+#include "LowPriorityTasks.h"
+#include "MediumPriorityTasks.h"
+#include "List.h"
 
 
 int main() {
-    struct TaskList task_list;
-    task_list.count = 0;  
-    
     AttemptToOpenFile();
-    
-    int choice;
 
+    int choice;
+    COLLECTION_OF_TASKS task_collection = Create_Collection_Of_Tasks(1000);
 
     do {
         display_menu();
-        scanf("%d", &choice);
+
+        printf("Enter your Option: ");
+        (void)scanf("%d", &choice);
+        printf("\n");
 
         switch (choice) {
         case 1:
-            //add_task(&task_list);  
+            Add_New_Task_To_Collection_Of_Tasks(&task_collection);
             break;
         case 2:
-            //delete_task(&task_list);  
+            Delete_Task_From_Collection_Of_Tasks(&task_collection);
             break;
         case 3:
-            //update_task(&task_list); 
+            Update_Task_In_Collection_Of_Tasks(&task_collection);
             break;
         case 4:
             //display_single_task(&task_list);  
@@ -38,7 +42,7 @@ int main() {
             //display_range_tasks(&task_list);  
             break;
         case 6:
-            //display_all_tasks(&task_list); 
+            Print_Collection_Of_Tasks(task_collection);
             break;
         case 7:
             //search_task(&task_list); 
@@ -59,3 +63,4 @@ int main() {
 
     return 0;
 }
+
