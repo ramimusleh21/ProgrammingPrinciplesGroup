@@ -134,12 +134,14 @@
     <ClCompile Include="LowPriorityTasks.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="MediumPriorityTasks.c" />
+    <ClCompile Include="task1.c" />
     <ClCompile Include="Task_main.c" />
     <ClCompile Include="Task_Type.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="functions.h" />
     <ClInclude Include="globals.h" />
+    <ClInclude Include="Header.h" />
     <ClInclude Include="HighPriorityTask.h" />
     <ClInclude Include="item.h" />
     <ClInclude Include="List.h" />
