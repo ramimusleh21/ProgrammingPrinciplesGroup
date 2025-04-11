@@ -36,9 +36,6 @@
     <ClCompile Include="List.c">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="item.c">
-      <Filter>Resource Files\Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Task_main.c">
       <Filter>Resource Files\Source Files</Filter>
     </ClCompile>
@@ -53,22 +50,10 @@
     <ClInclude Include="functions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="HighPriorityTask.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="LowPriorityTasks.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MediumPriorityTasks.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Task_Type.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="List.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="item.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Task_main.h">

@@ -129,7 +129,6 @@
   <ItemGroup>
     <ClCompile Include="functions.c" />
     <ClCompile Include="HighPriorityTask.c" />
-    <ClCompile Include="item.c" />
     <ClCompile Include="List.c" />
     <ClCompile Include="LowPriorityTasks.c" />
     <ClCompile Include="main.c" />
@@ -142,11 +141,7 @@
     <ClInclude Include="functions.h" />
     <ClInclude Include="globals.h" />
     <ClInclude Include="Header.h" />
-    <ClInclude Include="HighPriorityTask.h" />
-    <ClInclude Include="item.h" />
     <ClInclude Include="List.h" />
-    <ClInclude Include="LowPriorityTasks.h" />
-    <ClInclude Include="MediumPriorityTasks.h" />
     <ClInclude Include="Task_main.h" />
     <ClInclude Include="Task_Type.h" />
   </ItemGroup>
